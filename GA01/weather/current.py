@@ -1,6 +1,6 @@
 from requests import get
 from time import sleep
-API_KEY = "949a7ca4395f4f1b9b6220440171902"
+API_KEY = "insert_Here"
 ZIP = "50014"
 
 

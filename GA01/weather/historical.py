@@ -1,6 +1,6 @@
 from requests import get
 from time import time, sleep
-API_KEY = "b1aa62b008d1b6057974c308fb22151c"
+API_KEY = "insert_Here"
 LAT = "42.0308"
 LNG = "-93.6319"
 currentTime = round(time())

@@ -9,7 +9,7 @@ import subprocess
 
 # var constants
 BOT_ID = "U4B6UN2AD"
-API_KEY = 'xoxb-147232750353-0Udkb21xAhlHPJ6PtN5Z6Xss'
+API_KEY = 'insert_Here'
 slack_client = SlackClient(API_KEY)
 AT_BOT = "<@" + BOT_ID + ">"
 PID_FILENAME = "chatbotid.txt"

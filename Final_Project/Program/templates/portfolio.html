@@ -1,0 +1,56 @@
+{%extends "layout.html"%}
+{% block title %}StockSim | Portfolio{% endblock %}
+{% block content %}
+<div class="row content">
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 help">
+        <h3 class="page-header">Portfolio Value: {{portValue}}</h3>
+        <h1 class="page-header">Portfolio</h1>
+        <div id="Table"> </div>
+        <h1 class="page-header">Purchase History</h1>
+        <div id="Table2"> </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+  f = "";
+  f += '<table class="table table-striped">';
+  f += "<tr>"
+  f += "<th> Ticker </th>"
+  f += "<th> Quantity </th>"
+  // var obj = JSON.parse({{data}})
+
+  data = {{ data|safe }}
+  // obj = JSON.parse({{data|safe}})
+  for(i = 1; i < {{length}}; i++){
+    f += "<tr>"
+    f += "<td>" + data[i-1][0] + "</td>";
+    f += "<td>" + data[i-1][1] + "</td>";
+    f += "</tr>"
+  }
+  f += "</table>";
+  document.getElementById("Table").innerHTML = f;
+</script>
+
+<script>
+  q = "";
+  q += '<table class="table table-striped">';
+  q += "<tr>"
+  q += "<th> Ticker </th>"
+  q += "<th> Price </th>"
+  // var obj = JSON.parse({{data}})
+
+  data = {{ prices|safe }}
+  // obj = JSON.parse({{data|safe}})
+  for(i = 1; i < {{length2}}; i++){
+    q += "<tr>"
+    q += "<td>" + data[i-1][0] + "</td>";
+    q += "<td>" + data[i-1][1] + "</td>";
+    q += "</tr>"
+  }
+  q += "</table>";
+  document.getElementById("Table2").innerHTML = q;
+</script>
+{%endblock%}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap-responsive.min.css')}}"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}"/>
+    {% block head %}
+    {% endblock %}
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="nav-main container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="{{ url_for('about')}}">StockSim</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+              <li><a href="{{ url_for('portfolio') }}">Portfolio</a></li>
+              <li><a href="{{ url_for('leaderboard') }}">Leaderboard</a></li>
+              <li><a href="{{ url_for('help') }}">Help</a></li>
+              <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+              {% if session['logged_in'] %}
+              <li class="cashbar-parent">
+                <p class="cashbar nav">Cash: {{UserCash}} </p>
+              </li>
+              <li class="searchbar-parent">
+                <select class="searchbar nav">
+                  <option value="NONE">Search a stock</option>
+                  {% for key, value in availableStocks %}
+                    <option class="searchOption" value="{{ key }}">{{ key }} | {{ value }}</option>
+                  {% endfor %}
+                </select>
+              </li>
+              <li class="logout-parent"><a class="logout" href="{{url_for('logout')}}">Logout</a></li>
+              {% else %}
+              <li><span class="glyphicon glyphicon-log-in"></span><a href="{{url_for('home')}}">Login</a></li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav><!--- end nav bar -->
+    <div class="container content-block">
+      {%block content%}
+      {%endblock%}
+      <div class="row">
+        <div class="col-sm-offset-10 col-sm-2 col-md-offset-10 col-md-2">
+          <a href="http://localhost:8080/premium">
+            <img class="ad" src="{{ ad }}" alt="ad" height="100px" width="50%" />
+          </a>
+        </div>
+      </div>
+      {%block content2%}
+      {%endblock%}
+    </div>
+    <div class="container-fluid" align="center">
+      <div class="row">
+        <footer class="navbar-fixed-bottom">
+          {% block footer %}
+          <p>Iowa State University, College of Business,  MIS407-Spring2017, &copy; TEAM-PEERLESS 2017</p>
+          {% endblock %}
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/main.js')}}"></script>
+    {% block scripts %}
+    {% endblock %}
+  </body>
+</html>

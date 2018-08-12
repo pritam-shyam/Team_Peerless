@@ -1,0 +1,439 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): slack.com
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nba scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nba scoreboard" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Utah Jazz and the New Orleans Pelicans are playing today!" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nba scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nba scoreboard" as a response with a confidence of 0
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+Wow! The Buffalo Sabres won!" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard" as a response to "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Utah Jazz and the New Orleans Pelicans are playing today!"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nba scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nba scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Memphis Grizzlies and the Sacramento Kings are playing later today! :smile:" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nba scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nba scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nba scoreboard" as a response to "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+Wow! The Buffalo Sabres won!"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The New York Islanders lost. :$" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard" as a response to "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Memphis Grizzlies and the Sacramento Kings are playing later today! :smile:"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nba scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nba scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Detroit Pistons lost. :cry:" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nba scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nba scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nba scoreboard" as a response to "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The New York Islanders lost. :$"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Carolina Hurricanes lost. :$" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard" as a response to "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Detroit Pistons lost. :cry:"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> Hi!
+INFO:chatterbot.adapters:"<@U4B6UN2AD> Hi!" is not a known statement
+INFO:chatterbot.adapters:<class 'adapters.greetings_adapter.greetings_adapter'> selected "Hello human." as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> Hi!" as a close match to "Hello"
+INFO:chatterbot.adapters:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.adapters:Response selected. Using "Greetings!"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "Greetings!" as a response with a confidence of 0.5
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> Hi!" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> Hi!" as a response to "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Carolina Hurricanes lost. :$"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> Hi!
+INFO:chatterbot.adapters:"<@U4B6UN2AD> Hi!" is a known statement
+INFO:chatterbot.adapters:<class 'adapters.greetings_adapter.greetings_adapter'> selected "Hi! I'm CyBot!" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> Hi!" as a close match to "Hello"
+INFO:chatterbot.adapters:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.adapters:Response selected. Using "Greetings!"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "Greetings!" as a response with a confidence of 0.5
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> Hi!" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> Hi!" as a response to "Hello human."
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> how are you?
+INFO:chatterbot.adapters:"<@U4B6UN2AD> how are you?" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> how are you?" as a close match to "<@U4B6UN2AD> how are you?"
+INFO:chatterbot.adapters:No response to "<@U4B6UN2AD> how are you?" found. Selecting a random response.
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "Although that way may not be obvious at first unless you're Dutch." as a response with a confidence of 0
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> how are you?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> how are you?" as a response to "Hi! I'm CyBot!"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> cool!
+INFO:chatterbot.adapters:"<@U4B6UN2AD> cool!" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> cool!" as a close match to "Its complicated."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Complex is better than complicated."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "Complex is better than complicated." as a response with a confidence of 0.16666666666666666
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> cool!" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> cool!" as a response to "Although that way may not be obvious at first unless you're Dutch."
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> yes!
+INFO:chatterbot.adapters:"<@U4B6UN2AD> yes!" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> yes!" as a close match to "Yes it is."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "Can I help you with anything?"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "Can I help you with anything?" as a response with a confidence of 0.3333333333333333
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> yes!" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> yes!" as a response to "Complex is better than complicated."
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard!
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard!" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Tampa Bay Lightning and the Chicago Blackhawks are tied!" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard!" as a close match to "I'm also good."
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "That's good to hear."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "That's good to hear." as a response with a confidence of 0.06666666666666667
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard!" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard!" as a response to "Can I help you with anything?"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> how are you?
+INFO:chatterbot.adapters:"<@U4B6UN2AD> how are you?" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> how are you?" as a close match to "<@U4B6UN2AD> how are you?"
+INFO:chatterbot.adapters:No response to "<@U4B6UN2AD> how are you?" found. Selecting a random response.
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "<@U4B6UN2AD> nba scoreboard" as a response with a confidence of 0
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> how are you?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> how are you?" as a response to "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Tampa Bay Lightning and the Chicago Blackhawks are tied!"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> what is your mother tongue?
+INFO:chatterbot.adapters:"<@U4B6UN2AD> what is your mother tongue?" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:<class 'adapters.easteregg_adapter.easteregg_adapter'> selected "01000010 01101001 01101110 01100001 01110010 01111001 00101100 00100000 01101111 01100110 00100000 01100011 01101111 01110101 01110010 01110011 01100101 00100001" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> what is your mother tongue?" as a close match to "What languages do you like to use?"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "I use Python, Java and C++ quite often."
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "I use Python, Java and C++ quite often." as a response with a confidence of 0.07142857142857142
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> what is your mother tongue?" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> what is your mother tongue?" as a response to "<@U4B6UN2AD> nba scoreboard"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> thanks bro
+INFO:chatterbot.adapters:"<@U4B6UN2AD> thanks bro" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> thanks bro" as a close match to "Thank you anyway"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "No problem"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "No problem" as a response with a confidence of 0.3333333333333333
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> thanks bro" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> thanks bro" as a response to "01000010 01101001 01101110 01100001 01110010 01111001 00101100 00100000 01101111 01100110 00100000 01100011 01101111 01110101 01110010 01110011 01100101 00100001"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> later
+INFO:chatterbot.adapters:"<@U4B6UN2AD> later" is not a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.sports_adapter.sports_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> later" as a close match to "*NBA Games of 03/27/2017* :basketball:
+*6:30PM* Orlando Magic @ _Toronto Raptors_ *107-125 Q4 1:53*
+*6:30PM* Detroit Pistons @ _New York Knicks_ *95-109 Final*
+*7:00PM* Cleveland Cavaliers @ _San Antonio Spurs_ *47-74 Q3 3:36*
+*7:30PM* Oklahoma City Thunder @ _Dallas Mavericks_ *37-50 Q3 11:13*
+*9:30PM* Memphis Grizzlies @ Sacramento Kings *TBD*
+*9:30PM* New Orleans Pelicans @ Utah Jazz *TBD*
+
+
+The Memphis Grizzlies and the Sacramento Kings are playing later today! :smile:"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "<@U4B6UN2AD> nhl scoreboard"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0.014285714285714285
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> later" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> later" as a response to "No problem"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Florida Panthers lost. :(" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard" as a close match to "<@U4B6UN2AD> nba scoreboard"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "<@U4B6UN2AD> what is your mother tongue?"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "<@U4B6UN2AD> what is your mother tongue?" as a response with a confidence of 0.3333333333333333
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard" as a response to "<@U4B6UN2AD> nhl scoreboard"
+INFO:chatterbot.adapters:Recieved input statement: <@U4B6UN2AD> nhl scoreboard
+INFO:chatterbot.adapters:"<@U4B6UN2AD> nhl scoreboard" is a known statement
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.greetings_adapter.greetings_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.cyride_adapter.cyride_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.easteregg_adapter.easteregg_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.weather_adapter.weather_adapter'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mysportsfeeds.com
+INFO:chatterbot.adapters:<class 'adapters.sports_adapter.sports_adapter'> selected "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 4:20*
+*7:00PM* Arizona Coyotes @ _St. Louis Blues_ *1-2 Q3 18:16*
+
+
+The Carolina Hurricanes lost. :$" as a response with a confidence of 1
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.help_adapter.help_adapter'>
+INFO:chatterbot.adapters:Not processing the statement using <class 'adapters.horse_adapter.horse_adapter'>
+INFO:chatterbot.adapters:Using "<@U4B6UN2AD> nhl scoreboard" as a close match to "<@U4B6UN2AD> nba scoreboard"
+INFO:chatterbot.adapters:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.adapters:Response selected. Using "<@U4B6UN2AD> what is your mother tongue?"
+INFO:chatterbot.adapters:<class 'chatterbot.logic.best_match.BestMatch'> selected "<@U4B6UN2AD> what is your mother tongue?" as a response with a confidence of 0.3333333333333333
+INFO:chatterbot.adapters:<class 'chatterbot.logic.no_knowledge_adapter.NoKnowledgeAdapter'> selected "<@U4B6UN2AD> nhl scoreboard" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "<@U4B6UN2AD> nhl scoreboard" as a response to "*NHL Games of 03/27/2017* :ice_hockey_stick_and_puck:
+*6:00PM* Florida Panthers @ _Buffalo Sabres_ *2-4 Final*
+*6:00PM* _Nashville Predators_ @ New York Islanders *3-1 Final*
+*6:00PM* _Detroit Red Wings_ @ Carolina Hurricanes *4-3 Final*
+*6:30PM* Chicago Blackhawks @ Tampa Bay Lightning *4-4 Q3 6:01*
+
+
+The Florida Panthers lost. :("
+Cybot-peerless is running.
+Cybot-peerless is running.
+Cybot-peerless is running.
+Cybot-peerless is running.
+Cybot-peerless is running.

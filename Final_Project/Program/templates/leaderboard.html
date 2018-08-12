@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+{% block title %}StockSim | Leaderboard{% endblock %}
+{%block content%}
+<div class="row content">
+  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 leaderboard">
+    <h1 class="page-header">Leaderboard</h1>
+    <div id="Table"> </div>
+  </div>
+</div>
+{%endblock%}
+{% block scripts %}
+<script>      
+  f = "";
+  f += '<table class="table table-striped">';
+  f += "<tr>"
+  f += "<th> Rank </th>"
+  f += "<th> Username </th>"
+  f += "<th> Cash </th>"
+  // var obj = JSON.parse({{data}})
+
+  data = {{ data|safe }}
+  // obj = JSON.parse({{data|safe}})
+  for(i = 1; i < {{length}}; i++){
+    f += "<tr>"
+    f += "<td>" + i + "</td>";
+    f += "<td>" + data[i-1][0] + "</td>";
+    f += "<td>" + data[i-1][1] + "</td>";
+    f += "</tr>"
+  }
+  f += "</table>";
+  document.getElementById("Table").innerHTML = f;
+</script>
+{%endblock%}

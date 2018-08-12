@@ -1,0 +1,35 @@
+=======================AmesWeather.py Help==========================
+
+Usage: python AmesWeather.py [--time-offset=2/14/2017:12:00] [--metric] [measures]
+
+Example: python AmesWeather.py --time-offset=7/4/2016:12:00 T P-D WD
+Returns: 68.6, 30.0, SSW
+
+    Measures (you may use as many as you would like): 
+        T - prints current temperature
+        P - prints current air pressure
+        WS - prints current wind speed
+        WD - prints current wind direction
+
+        These may be appended to any of the above measures and used interchangeably:
+            Examples:
+                T-D - prints temperature from one day before 
+                P-W - prints pressure from one week before
+                WS-M - prints wind speed from one month before
+                WD-Y - prints wind direction from one year before
+    
+    Flags:
+        --metric
+            - Outputs are given in metric.
+            - Unless this is parameter is used, all outputs are in USCS.
+    
+        --time-offset=MM/DD/YYY:HH:MM 
+            - This is to emmulate a specific date and time as current time.
+
+        --gui
+            - This is a feature that is supported on Windows and Mac OS.
+
+        --help
+            - Shows this information.
+
+============================WE ARE PEERLESS==========================

@@ -1,0 +1,125 @@
+{%extends "layout.html"%}
+{% block title %}StockSim | {{ ticker }}{% endblock %}
+{%block content%}
+<div class="row content">
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 stock stock-{{ ticker }}">
+        {% for key, value in availableStocks %}
+        {% if key == ticker %}
+        <h1 class="page-header">{{ value }} | {{ ticker }}</h1>
+        {% endif %}
+        {% endfor %}
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul class=flashes>
+          {% for message in messages %}
+          <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        <h4>Quantity Owned: {{ownedQuantity}} </h4>
+        <h4>Current Price: {{stock_data['price']}}</h4>
+    </div>
+    <form  method="POST" action="/stock/post">
+    <div class="col-sm-12 col-md-12">
+        <div class="input-group">
+            <input type="hidden" name="Ticker" value={{ ticker }}></input>
+            <input type="text" class="form-control amountOfStock" placeholder="Enter number of stock" name="Quantity" aria-label="...">
+            <div class="input-group-btn">
+                <!-- Buttons -->
+                <button class="btn btn-primary btn-buy" type="submit" value ="Buy" name="Action">Buy</button>
+                <button class="btn btn-primary btn-sell" type="submit" value ="Sell" name="Action">Sell</button>
+            </div>
+        </div>
+        <!-- <div class="current-price">
+            {{ stock_data['price'] }}
+        </div> -->
+    </div>
+  </form>
+    <div class="col-sm-12 col-md-8">
+        <iframe src={{ sUrl }} width="100%" height="500px"></iframe>
+    </div>
+</div>
+<div class="row summary">
+    <div class="col-sm-12 col-md-4">
+        <!----
+        <ul>
+            <li>{{ stock_data }}</li>
+        </ul>---->
+        <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Summary</a></li>
+        </ul>
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <td>Previous Close</td>
+                    <td>{{ stock_data['prev_close'] }}</td>
+                </tr>
+                <tr>
+                    <td>Open</td>
+                    <td>{{ stock_data['open'] }}</td>
+                </tr>
+                <tr>
+                    <td>Bid</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>Ask</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>Day's Range</td>
+                    <td>{{ stock_data['days_range'] }}</td>
+                </tr>
+                <tr>
+                    <td>52 Week Range</td>
+                    <td>{{ stock_data['years_range'] }}</td>
+                </tr>
+                <tr>
+                    <td>Volume</td>
+                    <td>{{ stock_data['volume'] }}</td>
+                </tr>
+                <tr>
+                    <td>Avg. Daily Volume</td>
+                    <td>{{ stock_data['avg_daily_volume'] }}</td>
+                </tr>
+                <tr>
+                    <td>Market Cap</td>
+                    <td>{{ stock_data['market_cap'] }}</td>
+                </tr>
+                <tr>
+                    <td>Beta</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>PE Ratio (TTM)</td>
+                    <td>{{ stock_data['price_earnings_ratio'] }}</td>
+                </tr>
+                <tr>
+                    <td>EPS (TTM)</td>
+                    <td>{{ stock_data['earnings_share'] }}</td>
+                </tr>
+                <tr>
+                    <td>Earnings Date</td>
+                    <td>---</td>
+                </tr>
+                <tr>
+                    <td>Dividend and Yield</td>
+                    <td>{{ stock_data['dividend_share'] }} <small>({{ stock_data['dividend_yield'] }}%)</small></td>
+                </tr>
+                <tr>
+                    <td>Ex-Dividend Date</td>
+                    <td>{{ stock_data['ex_dividend_date'] }}</td>
+                </tr>
+                <tr>
+                    <td>1y Target Estimate</td>
+                    <td>{{ stock_data['one_yr_target_price'] }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="clearfix visible-md-block"></div>
+</div>
+{%endblock%}
+{%block content2%}
+{%endblock%}

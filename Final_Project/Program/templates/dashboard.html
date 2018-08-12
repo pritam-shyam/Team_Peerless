@@ -1,0 +1,45 @@
+{%extends "layout.html"%}
+{% block title %}StockSim | Dashboard{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/dashboard.css')}}"/>
+{% endblock %}
+{% block content %}
+      <div class="row">
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+          <h3 class="page-header">User Networth: {{ NetValue }}</h3>
+          <div class="panel panel-default panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Top 5 Stocks</h3>
+            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th></th>
+                  <th>Name</th>
+                  <th></th>
+                  <th>Price</th>
+                  <th></th>
+                  <th>Open</th>
+                  <th></th>
+                  <th>Previous Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for x in data %}
+                <tr>
+                  {% for val in x %}
+                    <td>{{val}}<td>
+                  {% endfor %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{url_for('static', filename='js/holder.min.js')}}"></script>
+{% endblock %}

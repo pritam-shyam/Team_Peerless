@@ -1,0 +1,71 @@
+/* main.css */
+
+/* layout.html */
+.content-block {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* nav */
+.nav-main{
+    background-color: #0066B2;
+}
+
+.nav-main .brand{
+    color: ghostwhite;
+}
+
+.nav-main .brand:hover{
+    color: #0DFFFF;
+}
+
+.nav-main .nav-collapse .nav .active a{
+    background-color: #4C95CC;
+}
+
+.nav-main .nav-collapse .nav li a{
+    color: ghostwhite;
+}
+
+.nav-main .nav-collapse .nav li a:hover{
+    color: #0DFFFF;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set footer background color, white text and some padding */
+footer {
+    background-color: #0066B2;
+    color: ghostwhite;
+    padding: 15px;
+    text-align: center;
+}
+
+.searchbar-parent {
+    padding: 1.5% 0;
+}
+
+.searchbar {
+    padding: 2.25% 0;
+}
+
+.cashbar-parent {
+    padding: 1.75% 0;
+}
+
+.cashbar {
+    padding: 2.5% 0;
+    color: ghostwhite;
+}
+
+.summary {
+    margin-top: 25px;
+}
+
+.ad {
+    margin: 50px 25% 5px;
+}
